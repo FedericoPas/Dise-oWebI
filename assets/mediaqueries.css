@@ -1,0 +1,145 @@
+:root{
+    --black:#181414;
+    --withe:#d4d4d4;
+    --witheplus:rgb(255, 255, 255);
+    --blue: rgb(9, 9, 29);
+    --background:rgb(2, 3, 19);
+    --background-header:#070606;
+    --border-card:rgb(46, 41, 41);
+    --gray:rgb(95, 95, 95); 
+    --redlogo:#dd1d1d;
+    
+}
+@media (max-width: 1200px){
+
+    header .menu,.buscar,.nav{
+        display: none;
+        padding: none;
+   }
+    header .logo-hamburgesa{
+        display: flex;
+        width: 30px;
+    }
+     main .menu-hamburgesa{
+        display: flex;
+        position: relative;
+        padding-left: 20px;
+    }
+    header p{
+        padding-right: 30px;
+    }
+    main .menu-burger a{
+        text-decoration: none;
+        color: var(--withe);
+    }
+    .menu-burger{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-items: flex-start;
+        background-color: var(--background-header);
+        width: 150px;
+        padding-top: 20px;
+        padding-bottom: 100%;
+        gap: 0px;
+        position: fixed;
+        top: 94px;
+        left: -200px;
+        z-index: 1000;
+    }
+    .menu-hamburgesa-li{
+        width: 100%;
+        padding-top:20px ;
+        padding-bottom:20px ;
+        padding-left:20px ;
+        padding-right:20px ;
+    }
+    .menu-hamburgesa-li:hover{
+        color: var(--background-header);
+        background-color: var(--withe);
+    }
+    .menu-hamburgesa-li:hover a{
+        color: var(--background-header);   
+    }
+    header .header{
+        width: max-content;
+        justify-content: center;
+        width: 100%;
+    }
+    main .about-text{
+        padding: 50px;
+       }
+    input{
+        display: none;
+    }
+    #opciones:checked + .menu-burger{
+        transition: .5s;
+        left: 0px;
+    }
+   footer{
+    flex-wrap: wrap;
+   }
+}
+@media (max-width: 576px) {
+     .header {
+        width: 100%;
+        padding: 5px;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .menu-hamburgesa-li{
+        width: 100%;
+        padding-top:10px ;
+        padding-bottom:10px ;
+        padding-left:10px ;
+        padding-right:10px ;
+    }
+    .menu-burger{
+        width: auto;
+    }
+    .logo-empresa{
+        width: 150px;
+    }
+     header .logo-hamburgesa{
+        padding-left: 5px;
+        width: 40px;
+    }
+    header .login {
+        font-size: 17px;
+        padding-right: 0;
+    }
+    header p{
+        padding-right: 5px;
+    }
+    .hero .slider-text{
+        font-size: 17px;
+    }
+    .hero-img1{
+        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
+        background-size: auto;
+        background-position: center;
+    }
+    .hero-img2{
+        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
+        background-size: auto;
+        background-position: center;
+    }
+    .hero-img3{
+        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
+        background-size: auto;
+        background-position: center;
+    }
+    .hero-img4{
+        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
+        background-size: auto;
+        background-position: center;
+    }
+    .hero-img5{
+        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
+        background-size: auto;
+        background-position: center;
+    }
+    main .about-text{
+        padding: 10px;
+       }
+}
