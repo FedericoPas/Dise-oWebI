@@ -142,4 +142,125 @@
     main .about-text{
         padding: 10px;
        }
+
+    
+    
+    
+       /* footer    */
+    
+    
+    
+    
+       footer img , .footer-navegacion , .cuenta {
+        display: none;
+    }
+
+
+
+
+    /* Cards */
+
+
+
+    main .card{
+        width: 160px;
+        height: 200px;
+    }
+    main .card1{
+        width: 160px;
+        height: 200px;
+    }
+    main .card2{
+        width: 160px;
+        height: 200px;
+    }
+    main .card3{
+        width: 160px;
+        height: 200px;
+    }
+    main .card4{
+        width: 160px;
+        height: 200px;
+    }
+    main .card5{
+        width: 160px;
+        height: 200px;
+    }
+    main .card6{
+        width: 160px;
+        height: 200px;
+    }
+    main .card7{
+        width: 160px;
+        height: 200px;
+    }
+    main .card8{
+        width: 160px;
+        height: 200px;
+    }
+    main .card9{
+        width: 160px;
+        height: 200px;
+    }
+
+    main .card-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card1-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card2-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card3-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card4-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card5-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card6-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card7-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card8-serie{
+        width: 160px;
+        height: 200px;
+    }
+    main .card9-serie{
+        width: 160px;
+        height: 200px;
+    }
+
+    main .card-text h2{
+        font-size: 15px;
+    }
+    main .card-text p{
+        font-size: 13px;
+    }
+
+              /* Card-canales */
+
+     main .card-canales{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 50px;
+        gap: 40px;
+     }  
+     main .card-canales img{
+        width: 130px;
+        height: 100px;
+    }
 }
