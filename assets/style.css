@@ -288,6 +288,7 @@ main{
 
 
 .hero{
+    padding-top: 100px;
     width: 100%;
 }
 .hero-img1{
@@ -404,7 +405,7 @@ main{
 .about-text a{
     text-decoration: none;
     color: var(--witheplus);
-    padding-top: 70px;
+    padding-top:100px;
 }
 .about-text h3{
     font-size: 30px;
