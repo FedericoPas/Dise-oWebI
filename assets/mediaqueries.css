@@ -84,6 +84,9 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    
+
+
     body footer{
     gap: 3px;
     flex-wrap: wrap;
@@ -151,6 +154,21 @@
         background-size: auto;
         background-position: center;
     }
+    
+    .cards .card{
+        width: 190px;
+        height: 386px;
+       }
+    main   .card .img-principal{
+        width: 180px;
+        height: 230px;
+       }
+    main .img-play img{
+        position: relative;
+        width: 43px;
+        right: -14px;
+        top: 10px;
+      }   
     main .about-text{
         padding: 10px;
        }
