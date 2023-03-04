@@ -126,35 +126,28 @@
     header p{
         padding-right: 5px;
     }
-    .hero .slider-text{
-        font-size: 17px;
+
+
+    .hero .hero-completo{
+        height: 50vh;
     }
-    .hero-img1{
-        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
-        background-size: auto;
-        background-position: center;
+    .hero .flex-slider-item2, .hero .flex-slider-item3, .hero .flex-slider-item4 {
+        display: none;
     }
-    .hero-img2{
-        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
-        background-size: auto;
-        background-position: center;
-    }
-    .hero-img3{
-        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
-        background-size: auto;
-        background-position: center;
-    }
-    .hero-img4{
-        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
-        background-size: auto;
-        background-position: center;
-    }
-    .hero-img5{
-        background: linear-gradient(to bottom, rgb(0 0 0/ 0.5), rgb(0 0 0/ 3)), url(./img/topgun.jpg);
-        background-size: auto;
-        background-position: center;
+    .hero .flex-slider-item, .hero .flex-slider-item5{
+        flex-basis: 50%;
+        
+    } 
+    .flex-slider{
+        display: flex;
+        flex-flow: row nowrap;
+        overflow: hidden;
+        height: 50%;
+        width: 80vw;
     }
     
+    
+
     .cards .card{
         width: 190px;
         height: 386px;
@@ -171,6 +164,8 @@
       }   
     main .about-text{
         padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
        }
 
 
@@ -178,13 +173,12 @@
     
 
     
-       footer img , .footer-navegacion , .cuenta {
+    footer img , .footer-navegacion , .cuenta {
         display: none;
     }
-        body footer{
-            padding: 5px;
-        }
-
+    body footer{
+        padding: 15px;
+    }
 
 
 
@@ -200,94 +194,7 @@
         padding-left: 5px;
         padding-right: 5px;
     }
-    main .card{
-        width: 160px;
-        height: 200px;
-    }
-    main .card1{
-        width: 160px;
-        height: 200px;
-    }
-    main .card2{
-        width: 160px;
-        height: 200px;
-    }
-    main .card3{
-        width: 160px;
-        height: 200px;
-    }
-    main .card4{
-        width: 160px;
-        height: 200px;
-    }
-    main .card5{
-        width: 160px;
-        height: 200px;
-    }
-    main .card6{
-        width: 160px;
-        height: 200px;
-    }
-    main .card7{
-        width: 160px;
-        height: 200px;
-    }
-    main .card8{
-        width: 160px;
-        height: 200px;
-    }
-    main .card9{
-        width: 160px;
-        height: 200px;
-    }
-
-    main .card-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card1-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card2-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card3-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card4-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card5-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card6-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card7-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card8-serie{
-        width: 160px;
-        height: 200px;
-    }
-    main .card9-serie{
-        width: 160px;
-        height: 200px;
-    }
-
-    main .card-text h2{
-        font-size: 15px;
-    }
-    main .card-text p{
-        font-size: 13px;
-    }
+    
 
               /* Card-canales */
 
