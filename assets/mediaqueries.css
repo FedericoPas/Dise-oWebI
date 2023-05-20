@@ -32,6 +32,27 @@
         text-decoration: none;
         color: var(--withe);
     }
+
+    body .hero .flex-slider-item2, .hero .flex-slider-item3, .hero .flex-slider-item4 {
+        display: none;
+    }
+    body .hero .flex-slider-item, .hero .flex-slider-item5{
+        flex-basis: 50%;}
+
+
+    body .hero{
+        min-width: 320px;
+            width: 100%;
+     }
+    body .hero-completo{
+        min-width: 320px;
+         height: 70vh;
+     }
+
+
+
+
+
     .menu-burger{
         display: flex;
         flex-direction: column;
@@ -95,13 +116,10 @@
    }
 }
 @media (max-width: 576px) {
-     header .header {
+     body .header {
         min-width: 320px;
-        position: fixed;
         width: 100%;
-        padding: 5px;
-        width: 100%;
-        justify-content: space-between;
+        padding: 0px;
     }
     .menu-hamburgesa-li{
         width: 100%;
@@ -130,15 +148,18 @@
 
     body .hero{
         min-width: 320px;
+        width: 100%;
     }
     body .hero-completo{
-        height: 50vh;
+        min-width: 320px;
+        height: 70vh;
     }
     body .hero .flex-slider-item2, .hero .flex-slider-item3, .hero .flex-slider-item4 {
         display: none;
     }
     body .hero .flex-slider-item, .hero .flex-slider-item5{
         flex-basis: 50%;
+
         
     } 
     body .flex-slider{
@@ -205,19 +226,30 @@
 
               /* Card-canales */
 
+                
+
      main .card-canales{
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
         padding-bottom: 50px;
-        gap: 40px;
+        gap: 20px;
      }  
      main .card-canales img{
-        width: 130px;
+        width: 100px;
         height: 100px;
     }
-    body .main{
-        min-width: 320px;
+    body {
+        width: 100%;
+        background-color: #dd1d1d;
+        min-width: 300px;
+        padding-right:0px ;
+        padding-left:0px ;
     }
+    body .logo-empresa{
+        width: 120px;
+    }
+   
+    
 }
 
 

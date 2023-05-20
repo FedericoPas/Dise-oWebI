@@ -33,6 +33,7 @@
 
 
 body{
+  max-width: 1400px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -245,12 +246,12 @@ nav a{
   padding-top: 34px;
   padding-right: 10px;
 }
-.login:hover{
+/* .login:hover{
   background: var(--background-header);
   background: linear-gradient(0deg, var(--background-header) 96%, rgba(255,255,255,1) 96%);
   color: var(--witheplus);
   transition: 0.5s;
-} 
+}  */
 .menu-hamburgesa{
   display: none;  
 }
@@ -276,7 +277,7 @@ main{
 
 
 
-
+ 
 
 
 /* ......Hero...... */
@@ -687,4 +688,7 @@ footer h4{
 }
 footer a:hover{
   color: var(--witheplus);
+}
+body{
+  min-width: 320px;
 }
