@@ -1,59 +1,72 @@
-:root{
-    --black:#181414;
-    --withe:#d4d4d4;
-    --witheplus:rgb(255, 255, 255);
+:root {
+    --black: #181414;
+    --withe: #d4d4d4;
+    --witheplus: rgb(255, 255, 255);
     --blue: rgb(9, 9, 29);
-    --background:rgb(2, 3, 19);
-    --background-header:#070606;
-    --border-card:rgb(46, 41, 41);
-    --gray:rgb(95, 95, 95); 
-    --redlogo:#dd1d1d;
-    
-}
-@media (max-width: 1200px){
+    --background: rgb(2, 3, 19);
+    --background-header: #070606;
+    --border-card: rgb(46, 41, 41);
+    --gray: rgb(95, 95, 95);
+    --redlogo: #dd1d1d;
 
-    header .menu,.buscar,.nav{
+}
+
+@media (max-width: 1200px) {
+
+    header .menu,
+    .buscar,
+    .nav {
         display: none;
         padding: none;
-   }
-    header .logo-hamburgesa{
+    }
+
+    header .logo-hamburgesa {
         display: flex;
         width: 30px;
     }
-     main .menu-hamburgesa{
+
+    main .menu-hamburgesa {
         display: flex;
         position: relative;
         padding-left: 20px;
     }
-    header p{
+
+    header p {
         padding-right: 30px;
     }
-    main .menu-burger a{
+
+    main .menu-burger a {
         text-decoration: none;
         color: var(--withe);
     }
 
-    body .hero .flex-slider-item2, .hero .flex-slider-item3, .hero .flex-slider-item4 {
+    body .hero .flex-slider-item2,
+    .hero .flex-slider-item3,
+    .hero .flex-slider-item4 {
         display: none;
     }
-    body .hero .flex-slider-item, .hero .flex-slider-item5{
-        flex-basis: 50%;}
+
+    body .hero .flex-slider-item,
+    .hero .flex-slider-item5 {
+        flex-basis: 50%;
+    }
 
 
-    body .hero{
+    body .hero {
         min-width: 320px;
-            width: 100%;
-     }
-    body .hero-completo{
+        width: 100%;
+    }
+
+    body .hero-completo {
         min-width: 320px;
-         height: 70vh;
-     }
+        height: 70vh;
+    }
 
 
 
 
 
-    .menu-burger{
+    .menu-burger {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -68,101 +81,123 @@
         left: -200px;
         z-index: 1000;
     }
-    .menu-hamburgesa-li{
+
+    .menu-hamburgesa-li {
         width: 100%;
-        padding-top:20px ;
-        padding-bottom:20px ;
-        padding-left:20px ;
-        padding-right:20px ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
-    .menu-hamburgesa-li:hover{
+
+    .menu-hamburgesa-li:hover {
         color: var(--background-header);
         background-color: var(--withe);
     }
-    .menu-hamburgesa-li:hover a{
-        color: var(--background-header);   
+
+    .menu-hamburgesa-li:hover a {
+        color: var(--background-header);
     }
-    header .header{
+
+    header .header {
         width: max-content;
         justify-content: center;
         width: 100%;
     }
-    main .about-text{
+
+    main .about-text {
         padding: 50px;
-       }
-    input{
+    }
+
+    input {
         display: none;
     }
-    #opciones:checked + .menu-burger{
+
+    #opciones:checked+.menu-burger {
         transition: .5s;
         left: 0px;
     }
-    main .card-peliculas{
+
+    main .card-peliculas {
         padding-left: 5px;
         padding-right: 5px;
     }
-     main .cards-series{
+
+    main .cards-series {
         padding-left: 5px;
         padding-right: 5px;
     }
-    
 
 
-    body footer{
-    gap: 3px;
-    flex-wrap: wrap;
-    font-size: 15px;
-    padding: 20px;
-   }
+
+    body footer {
+        gap: 3px;
+        flex-wrap: wrap;
+        font-size: 15px;
+        padding: 20px;
+    }
 }
+
 @media (max-width: 576px) {
-     body .header {
+    body .header {
         min-width: 320px;
         width: 100%;
         padding: 0px;
     }
-    .menu-hamburgesa-li{
+
+    .menu-hamburgesa-li {
         width: 100%;
-        padding-top:10px ;
-        padding-bottom:10px ;
-        padding-left:10px ;
-        padding-right:10px ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    .menu-burger{
+
+    .menu-burger {
         width: auto;
     }
-    .logo-empresa{
+
+    .logo-empresa {
         width: 150px;
     }
-     header .logo-hamburgesa{
+
+    header .logo-hamburgesa {
         padding-left: 5px;
         width: 40px;
     }
+
     header .login {
         font-size: 17px;
         padding-right: 0;
     }
-    header p{
+
+    header p {
         padding-right: 5px;
     }
 
-    body .hero{
+    body .hero {
         min-width: 320px;
         width: 100%;
     }
-    body .hero-completo{
+
+    body .hero-completo {
         min-width: 320px;
         height: 70vh;
     }
-    body .hero .flex-slider-item2, .hero .flex-slider-item3, .hero .flex-slider-item4 {
+
+    body .hero .flex-slider-item2,
+    .hero .flex-slider-item3,
+    .hero .flex-slider-item4, .hero .flex-slider-item5 {
         display: none;
     }
-    body .hero .flex-slider-item, .hero .flex-slider-item5{
-        flex-basis: 50%;
 
-        
-    } 
-    body .flex-slider{
+    body .hero .flex-slider-item{
+        flex-basis: 100%;
+
+
+    }
+
+    body .flex-slider {
         min-width: 320px;
         display: flex;
         flex-flow: row nowrap;
@@ -170,40 +205,45 @@
         height: 90%;
         width: 100%;
     }
-    
+
     
 
-    .cards .card{
+    .cards .card {
         width: 190px;
         height: 386px;
-       }
-    main   .card .img-principal{
+    }
+
+    main .card .img-principal {
         width: 180px;
         height: 230px;
-       }
-    main .img-play img{
+    }
+
+    main .img-play img {
         position: relative;
         width: 43px;
         right: -14px;
         top: 10px;
-      }   
-    main .about-text{
+    }
+
+    main .about-text {
         padding: 10px;
         padding-left: 20px;
         padding-right: 20px;
-       }
+    }
 
 
-       /* footer    */
-    
+    /* footer    */
 
-    
-    footer img , .footer-navegacion , .cuenta {
+
+
+    footer img,
+    .footer-navegacion,
+    .cuenta {
         display: none;
     }
 
-    body .footer{
-        min-width:320px;
+    body .footer {
+        min-width: 320px;
         width: 100%;
         padding: 5px;
     }
@@ -214,67 +254,47 @@
     /* Cards */
 
 
-    main .card-peliculas{
+    main .card-peliculas {
         padding-left: 5px;
         padding-right: 5px;
     }
-    main .card-series{
+
+    main .card-series {
         padding-left: 5px;
         padding-right: 5px;
     }
-    
 
-              /* Card-canales */
 
-                
+    /* Card-canales */
 
-     main .card-canales{
+
+
+    main .card-canales {
         padding-left: 3px;
         padding-right: 3px;
         padding-bottom: 50px;
         gap: 20px;
-     }  
-     main .card-canales img{
+    }
+
+    main .card-canales img {
         width: 100px;
         height: 100px;
     }
+
     body {
         width: 100%;
         background-color: #dd1d1d;
         min-width: 300px;
-        padding-right:0px ;
-        padding-left:0px ;
+        padding-right: 0px;
+        padding-left: 0px;
     }
-    body .logo-empresa{
+
+    body .logo-empresa {
         width: 120px;
     }
-   
-    
+    body .hero{
+        display: none;
+    }
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
