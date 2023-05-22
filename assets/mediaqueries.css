@@ -53,12 +53,10 @@
 
 
     body .hero {
-        min-width: 320px;
         width: 100%;
     }
 
     body .hero-completo {
-        min-width: 320px;
         height: 70vh;
     }
 
@@ -140,7 +138,6 @@
 
 @media (max-width: 576px) {
     body .header {
-        min-width: 320px;
         width: 100%;
         padding: 0px;
     }
@@ -176,12 +173,10 @@
     }
 
     body .hero {
-        min-width: 320px;
         width: 100%;
     }
 
     body .hero-completo {
-        min-width: 320px;
         height: 70vh;
     }
 
@@ -198,7 +193,6 @@
     }
 
     body .flex-slider {
-        min-width: 320px;
         display: flex;
         flex-flow: row nowrap;
         overflow: hidden;
@@ -243,7 +237,6 @@
     }
 
     body .footer {
-        min-width: 320px;
         width: 100%;
         padding: 5px;
     }
@@ -284,7 +277,6 @@
     body {
         width: 100%;
         background-color: #dd1d1d;
-        min-width: 300px;
         padding-right: 0px;
         padding-left: 0px;
     }
@@ -292,9 +284,4 @@
     body .logo-empresa {
         width: 120px;
     }
-    body .hero{
-        display: none;
-    }
-
-
 }
